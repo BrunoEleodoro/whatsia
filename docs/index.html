@@ -1,9 +1,49 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviço de Chatbot para WhatsApp com IA</title>
+    <meta name="description" content="Revolutionize a comunicação do seu negócio com nosso serviço de Chatbot para WhatsApp usando inteligência artificial. Automatize atendimentos, melhore a satisfação do cliente e aumente suas vendas.">
+    <meta name="keywords" content="Chatbot WhatsApp, Inteligência Artificial, Atendimento Automatizado, Serviço de Chatbot, Automação de WhatsApp">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <div class="container mx-auto px-4 py-8">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-bold">Chatbot para WhatsApp com Inteligência Artificial</h1>
+            <p class="text-xl mt-4">Transforme a maneira como você interage com seus clientes</p>
+        </header>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+        <section>
+            <h2 class="text-3xl font-bold mb-4">Por que escolher nosso Chatbot?</h2>
+            <div class="grid md:grid-cols-3 gap-4">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold mb-2">Atendimento 24/7</h3>
+                    <p>Garanta que seus clientes sejam atendidos a qualquer hora do dia, melhorando a satisfação e fidelização.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold mb-2">Personalização Avançada</h3>
+                    <p>Adapte o chatbot para refletir o tom e a personalidade da sua marca, oferecendo uma experiência única.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold mb-2">Inteligência Artificial</h3>
+                    <p>Utilizamos IA de ponta para entender e responder de maneira eficaz às consultas dos clientes.</p>
+                </div>
+            </div>
+        </section>
 
+        <section class="mt-12">
+            <h2 class="text-3xl font-bold mb-4">Aumente suas vendas hoje!</h2>
+            <p class="mb-6">Não perca a oportunidade de modernizar o atendimento ao cliente e impulsionar suas vendas com nossa solução de chatbot para WhatsApp. Clique abaixo para adquirir agora mesmo.</p>
+            <stripe-buy-button
+                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                buy-button-id="buy_btn_1OgnpbAtDjXg2EdX9loErcIE"
+                publishable-key="pk_live_51OgnP0AtDjXg2EdXFAVmewjk1Q2xEspyiTaqkHfE1KaI9esHCVt38pq4ZidsQk9blFzbiMUwJkUNytUnTWMaZCyC00dSxyIYk9">
+            </stripe-buy-button>
+        </section>
+
+    </div>
 </body>
 </html>
